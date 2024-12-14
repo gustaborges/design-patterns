@@ -1,9 +1,9 @@
-﻿using DesignPatterns.Behavorial.Visitor.Documents;
+﻿using DesignPatterns.Behavioral.Visitor.Documents;
 
 /**
  * By using the visitor pattern we avoid structures similar to what is seen below, with castings and conditionals in order to delegate to the correct method 
  */
-internal class Program2
+public class Program2
 {
     private static void Main(string[] args)
     {
@@ -34,7 +34,7 @@ internal class Program2
     }
 }
 
-internal class PdfExporter
+public class PdfExporter
 {
     internal void DoForPresentation(Presentation presentation)
     {

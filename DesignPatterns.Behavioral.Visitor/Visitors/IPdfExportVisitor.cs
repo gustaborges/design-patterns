@@ -1,6 +1,6 @@
-﻿using DesignPatterns.Behavorial.Visitor.Documents;
+﻿using DesignPatterns.Behavioral.Visitor.Documents;
 
-namespace DesignPatterns.Behavorial.Visitor.Visitors
+namespace DesignPatterns.Behavioral.Visitor.Visitors
 {
     public interface IPdfExportVisitor
     {

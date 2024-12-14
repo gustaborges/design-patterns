@@ -1,5 +1,5 @@
-﻿using DesignPatterns.Behavorial.Visitor.Documents;
-using DesignPatterns.Behavorial.Visitor.Visitors;
+﻿using DesignPatterns.Behavioral.Visitor.Documents;
+using DesignPatterns.Behavioral.Visitor.Visitors;
 
 var documents = new IDocument[] { new TextDocument(), new Presentation(), new Spreadsheet() };
 

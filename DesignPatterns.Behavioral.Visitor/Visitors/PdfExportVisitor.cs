@@ -1,8 +1,8 @@
-﻿using DesignPatterns.Behavorial.Visitor.Documents;
+﻿using DesignPatterns.Behavioral.Visitor.Documents;
 
-namespace DesignPatterns.Behavorial.Visitor.Visitors
+namespace DesignPatterns.Behavioral.Visitor.Visitors
 {
-    internal class PdfExportVisitor : IPdfExportVisitor
+    public class PdfExportVisitor : IPdfExportVisitor
     {
         // Visitor method could be called "DoForTextDocument" and so on...
         public void Visit(TextDocument textDocument)
